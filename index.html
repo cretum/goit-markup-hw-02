@@ -4,57 +4,65 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Web-Studio-Homework-Project</title>
   </head>
   <body>
-    <header>
-      <a href="webdesign.html">webstudio</a>
-      <nav>
+    <header class="global-header">
+      <a href="webstudio.html" class="primary-link">webstudio</a>
+      <nav class="main-navigation">
         <ul>
-          <li><a href="./studio">Studio</a></li>
-          <li><a href="./portofolio">Portfolio</a></li>
+          <li><a href="./studio" class="active">Studio</a></li>
+          <li><a href="/goit-markup-hw-02/portofolio.html">Portfolio</a></li>
           <li><a href="/contacts">Contacts</a></li>
         </ul>
       </nav>
-      <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-      <a href="tel:+12127724150">+1 212-772-4150</a>
+      <section class="social">
+        <a href="mailto:info@devstudio.com" class="active"
+          >info@devstudio.com</a
+        >
+        <a href="tel:+12127724150" class="phone-number">+1 212-772-4150</a>
+      </section>
     </header>
+    <!-- Main Content -->
     <main>
-      <section>
+      <section class="section-hero">
         <h1 title="EFFECTIVE SOLUTIONS FOR YOUR BUSINESS">
           EFFECTIVE SOLUTIONS FOR YOUR BUSINESS
         </h1>
-        <button>Request our service</button>
+        <button class="button">Request our service</button>
       </section>
-      <section>
+      <!-- Information Content -->
+      <section class="container">
         <ul>
           <li>
-            <span>ATTENTION TO DETAILS</span>
+            <em>ATTENTION TO DETAILS</em>
             <span>We go into all the details and processes</span>
             <span>of your business to develop a</span>
             <span>customized solution.</span>
           </li>
           <li>
-            <span>PUNCTUALITY</span>
+            <em>PUNCTUALITY</em>
             <span>With us, you can feel safe and secure.</span>
             <span>An important principle of the company:</span>
             <span>respect your time and deadlines.</span>
           </li>
           <li>
-            <span>PLANNING</span>
+            <em>PLANNING</em>
             <span>You will be able to observe and</span>
             <span>participate in every phase of solution</span>
             <span>development and implementation.</span>
           </li>
           <li>
-            <span>mODERN TECHNOLOGIES</span>
+            <em>mODERN TECHNOLOGIES</em>
             <span>We use innovative tools to solve</span>
             <span>assigned tasks. It's time to simplify work</span>
             <span>processes.</span>
           </li>
         </ul>
       </section>
-      <section>
+      <!-- What we do -->
+      <section class="about">
         <h2>What we do</h2>
         <ul>
           <li>
@@ -80,9 +88,10 @@
           </li>
         </ul>
       </section>
-      <section>
+      <!-- Our team -->
+      <section class="team">
         <h2>Our Team</h2>
-        <ul>
+        <ul class="team-list">
           <li>
             <img
               src="images/cristopher.jpg.jpg"
@@ -122,12 +131,17 @@
         </ul>
       </section>
     </main>
-    <footer>
-      <a href="webdesign.html">webstudio</a>
-      <address>
+    <!--Footer-->
+    <footer class="global-footer">
+      <a href="webstudio.html" class="primary-link">webstudio</a>
+      <address class="global-address">
         <span>695 Park Ave, NY 10065, USA</span><br />
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a><br />
-        <a href="tel:+12127724150">+1 212-772-4150 </a>
+        <section class="social">
+          <a href="mailto:info@devstudio.com" class="active"
+            >info@devstudio.com</a
+          >
+          <a href="tel:+12127724150" class="phone-number">+1 212-772-4150</a>
+        </section>
       </address>
     </footer>
   </body>

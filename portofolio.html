@@ -4,23 +4,127 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+    <title>Portofolio</title>
   </head>
   <body>
-    <header>
-      <a href="webdesign.html">webstudio</a>
-      <nav>
+    <!--Global-header-->
+    <header class="global-header">
+      <a href="webdesign.html" class="primary-link">webstudio</a>
+      <nav class="main-navigation">
         <ul>
           <li><a href="/goit-markup-hw-02/index.html">Studio</a></li>
-          <li><a href="/goit-markup-hw-02/portofolio.html">Portfolio</a></li>
+          <li>
+            <a href="/goit-markup-hw-02/portofolio.html" class="active"
+              >Portfolio</a
+            >
+          </li>
           <li><a href="/pontacts">Contacts</a></li>
         </ul>
       </nav>
-      <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-      <a href="tel:+12127724150">+1 212-772-4150</a>
+      <section class="social">
+        <a href="mailto:info@devstudio.com" class="email">info@devstudio.com</a>
+        <a href="tel:+12127724150" class="phone-number">+1 212-772-4150</a>
+      </section>
     </header>
     <main>
-      <section></section>
+      <!--Section-button-->
+      <section class="section-button">
+        <ul>
+          <li><button class="inter" type="button">All</button></li>
+          <li><button type="button">Web-sites</button></li>
+          <li><button type="button">Apps</button></li>
+          <li><button type="button">Design</button></li>
+          <li><button type="button">Marketing</button></li>
+        </ul>
+      </section>
+      <!--Section-images-->
+      <section>
+        <ul class="visual-content">
+          <li>
+            <img src="images/laptop.jpg" alt="laptop.jpg" width="370px" /><br />
+            Technoduck<br />
+            <em>Web-site</em>
+          </li>
+          <li>
+            <img
+              src="images/baschet.jpg"
+              alt="baschet.jpg"
+              width="370px"
+            /><br />
+            Poster New Orlean vs Golden Star<br />
+            <em>Design</em>
+          </li>
+          <li>
+            <img
+              src="images/restaurant.jpg"
+              alt="restaurant.jpg"
+              width="370px"
+            /><br />
+            Seafood Restaurant <br />
+            <em>Apps</em>
+          </li>
+          <li>
+            <img src="./images/casti.jpg" alt="casti.jpg" width="370px" /><br />
+            Project Prime<br />
+            <em>Marketing</em>
+          </li>
+          <li>
+            <img src="./images/cutii.jpg" alt="cutii.jpg" width="370px" /><br />
+            Project Boxes<br />
+            <em>Apps</em>
+          </li>
+          <li>
+            <img
+              src="./images/monitor.jpg"
+              alt="monitor.jpg"
+              width="370px"
+            /><br />
+            Inspiration has no Borders<br />
+            <em>Web-site</em>
+          </li>
+          <li>
+            <img
+              src="./images/revista.jpg"
+              alt="revista.jpg"
+              width="370px"
+            /><br />
+            Limited Edition<br />
+            <em>Design</em>
+          </li>
+          <li>
+            <img
+              src="./images/breloc.jpg"
+              alt="breloc.jpg"
+              width="370px"
+            /><br />
+            Project LAB<br />
+            <em>Marketing</em>
+          </li>
+          <li>
+            <img
+              src="./images/business.jpg"
+              alt="business.jpg"
+              width="370px"
+            /><br />
+            Growing Business<br />
+            <em>Apps</em>
+          </li>
+        </ul>
+      </section>
     </main>
+    <!--Footer-->
+    <footer class="global-footer">
+      <a href="webstudio.html" class="primary-link">webstudio</a>
+      <address>
+        <span>695 Park Ave, NY 10065, USA</span><br />
+        <section class="social">
+          <a href="mailto:info@devstudio.com" class="email"
+            >info@devstudio.com</a
+          >
+          <a href="tel:+12127724150" class="phone-number">+1 212-772-4150</a>
+        </section>
+      </address>
+    </footer>
   </body>
 </html>
